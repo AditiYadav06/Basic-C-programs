@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+  float cel,far;
+  int lower_limit,upper_limit,increase_by;
+  lower_limit=0;
+  upper_limit=300;
+  increase_by=15;
+  far=lower_limit;
+  while(far<=upper_limit)
+  {
+      cel=5*(far-32)/9;
+      printf("Fahrenhiet %.0f \t is equal to  %.3f \t Celsius\n",far,cel);
+      far+=15;
+      
+  }
+  
+}
